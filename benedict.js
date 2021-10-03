@@ -4,7 +4,7 @@ const cumberbatch = ['Кукумбер', 'Казантип', 'Джонникэш
 const letters = 'абвгдеёжзийклмнопрстуфхцчшщэюя'.split('')
 
 if (process.argv.length === 4) {
-  // Specify first letters of your name to generate
+  // Specify your name and surname to generate
   // your personal name variant (https://i.imgur.com/jTlLd5c.png)
   const first = letters.findIndex(e => e === process.argv[2].charAt(0).toLowerCase())
   const second = letters.findIndex(e => e === process.argv[3].charAt(0).toLowerCase())
