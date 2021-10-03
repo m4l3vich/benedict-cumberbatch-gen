@@ -6,8 +6,8 @@ const letters = 'абвгдеёжзийклмнопрстуфхцчшщэюя'.s
 if (process.argv.length === 4) {
   // Specify your name and surname to generate
   // your personal name variant (https://i.imgur.com/jTlLd5c.png)
-  const first = letters.findIndex(e => e === process.argv[2].charAt(0).toLowerCase())
-  const second = letters.findIndex(e => e === process.argv[3].charAt(0).toLowerCase())
+  const first = letters.indexOf(process.argv[2].charAt(0).toLowerCase())
+  const second = letters.indexOf(process.argv[3].charAt(0).toLowerCase())
 
   if (first === -1 || second === -1) return console.log('¯\_(ツ)_/¯')
 
