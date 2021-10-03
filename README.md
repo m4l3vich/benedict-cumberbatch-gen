@@ -4,7 +4,7 @@ Benedict Cumberbatch name variants generator (RU)
 ![Script usage example](https://imgur.com/ryEC9R2.png)
 
 ### Requirements:
-Node.js v4 and newer (should support Array.prototype.findIndex)
+Node.js any version (verified working on 0.12.18)
 
 ### Usage:
 Generate random name variant: `node benedict.js`   
